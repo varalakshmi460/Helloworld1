@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polymorphism
+namespace Polymorphism    
 {
     public interface HDFCBank
     {
         void GetBranchinfo();
+        Console.Writeline();
         void displayinfo();
     }
     public interface SBIBank
