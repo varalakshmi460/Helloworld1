@@ -9,7 +9,7 @@ namespace Polymorphism
     public interface HDFCBank
     {
         void GetBranchinfo();
-        Console.Writeline();
+        Console.WriteLine("hi");
         void displayinfo();
     }
     public interface SBIBank
